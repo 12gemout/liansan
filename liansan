@@ -230,7 +230,7 @@
     <div class="container">
         <div class="box">
             <button class="toggle-btn" data-target="left-info">3D柱状图说明</button>
-            <button class="new-btn" onclick="window.open('')">
+            <button class="new-btn" onclick="window.open('https://12gemout.github.io/policymap')">
             <i class="fa fa-external-link"></i> 进入可视化界面
             </button>
             <div class="left-info">
@@ -240,7 +240,7 @@
 
         <div class="box">
             <button class="toggle-btn" data-target="right-info">LDA模型可视化说明</button>
-            <button class="new-btn" onclick="window.open('')">
+            <button class="new-btn" onclick="window.open('https://12gemout.github.io/LDA')">
                     <i class="fa fa-external-link"></i>进入可视化界面
                     </button>
             <div class="right-info">
