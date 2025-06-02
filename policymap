@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-gl.min.js"></script>
+</head>
+<body>
+    <!-- 调整容器宽度为1500px，高度700px -->
+    <div id="68305dd22ecc448bbc95ba8e5fe3ad74" class="chart-container" style="width:1500px; height:700px;"></div>
+    <script>
+        var chart_68305dd22ecc448bbc95ba8e5fe3ad74 = echarts.init(
+            document.getElementById('68305dd22ecc448bbc95ba8e5fe3ad74'), 'white', {renderer: 'canvas'});
+        var option_68305dd22ecc448bbc95ba8e5fe3ad74 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "bar3D",
+            "name": "\u5973\u6027\u653f\u7b56\u5173\u952e\u8bcd\u9891\u7387",
+            "data": [
+                [0,0,661.81876],[1,0,438.362697],[2,0,405.780677],[3,0,382.42079],[4,0,349.980446],
+                [5,0,319.129278],[6,0,311.133053],[7,0,289.995176],[8,0,286.952211],[9,0,286.949222],
+                [10,0,231.994206],[11,0,225.384093],[12,0,216.795782],[13,0,197.869495],[14,0,197.168089],
+                [15,0,196.180115],[16,0,191.747787],[17,0,190.543024],[18,0,184.825523],[19,0,184.066724],
+                [20,0,177.459562],[21,0,160.508231],[22,0,159.613649],[23,0,159.074721],[24,0,158.304634],
+                [25,0,149.962492],[26,0,146.461772],[27,0,145.786461]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "grid3DIndex": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": ["\u5973\u6027\u653f\u7b56\u5173\u952e\u8bcd\u9891\u7387"],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis3D": {
+        "data": [
+            "\u5dfe\u5e3c", "\u521b\u4e1a", "\u7ef4\u6743", "\u521b\u65b0", "\u4f01\u4e1a",
+            "\u5e2e\u6276", "\u653f\u7b56\u6cd5\u89c4", "\u7535\u5546", "\u632f\u5174", "\u516c\u76ca",
+            "\u5173\u7231", "\u7ecf\u6d4e", "\u6587\u5316", "\u652f\u6301", "\u6280\u80fd", "\u5e73\u53f0",
+            "\u5e73\u7b49", "\u519c\u6751\u5987\u5973", "\u624b\u5de5", "\u79d1\u6280\u4eba\u624d",
+            "\u5408\u6cd5\u6743\u76ca", "\u4ea7\u5047", "\u7537\u5973\u5e73\u7b49", "\u8865\u8d34",
+            "\u804c\u4e1a\u6280\u80fd", "\u4fdd\u9669", "\u4eba\u529b\u8d44\u6e90", "\u793e\u4f1a\u4fdd\u969c"
+        ],
+        "show": true,
+        "scale": false,
+        "grid3DIndex": 0,
+        "nameGap": 20,
+        "logBase": 10,
+        "type": "category",
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "axisLabel": {  // 新增标签显示控制
+            "interval": 0,      // 强制显示所有标签
+            "rotate": 0,       // 标签倾斜45度
+            "fontSize": 12,     // 字体大小（可根据需要调小）
+            "margin": 10,       // 标签与轴线距离
+            "formatter": function (value) {  // 长标签截断
+                return value.length > 12 ? value.substr(0, 12) + "..." : value;
+            }
+        }
+    },
+    "yAxis3D": {
+        "data": [0],
+        "show": true,
+        "scale": false,
+        "grid3DIndex": 0,
+        "nameGap": 20,
+        "logBase": 10,
+        "type": "category",
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        }
+    },
+    "zAxis3D": {
+        "name": "TF-IDF\u6743\u91cd",
+        "show": true,
+        "scale": false,
+        "grid3DIndex": 0,
+        "nameGap": 20,
+        "logBase": 10,
+        "type": "value",
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        }
+    },
+    "grid3D": {
+        "boxWidth": 200,
+        "boxHeight": 100,
+        "boxDepth": 80,
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "environment": "auto",
+        "viewControl": {  // 调整3D视角参数
+            "autoRotate": false,
+            "rotateSensitivity": 1,
+            "alpha": 30,    // 增大x轴旋转角度（视野更开阔）
+            "beta": 55,     // 增大y轴旋转角度（更平视底面）
+            "distance": 180 // 增大相机距离（显示更多内容）
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u5973\u6027\u653f\u7b56\u652f\u6301\u5173\u952e\u8bcd\u9891\u7387\u53ef\u89c6\u5316",
+            "target": "blank",
+            "subtext": "\u57fa\u4e8eTF-IDF\u6743\u91cd\u76843D\u67f1\u72b6\u56fe",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 145.786461,
+        "max": 661.81876,
+        "inRange": {
+            "color": ["#B0E0E6", "#6495ED", "#00008B"]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_68305dd22ecc448bbc95ba8e5fe3ad74.setOption(option_68305dd22ecc448bbc95ba8e5fe3ad74);
+    </script>
+</body>
+</html>
